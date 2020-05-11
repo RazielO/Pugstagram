@@ -1,5 +1,15 @@
 <script>
   import Comments from "./Comments.svelte";
+
+  export let username;
+  export let location;
+  export let avatar;
+  export let photo;
+  export let like;
+  export let bookmark;
+  export let postComment;
+  export let comments;
+
 </script>
 
 <style>
@@ -119,10 +129,10 @@
   <div class="container">
     <div class="header">
       <div class="user">
-        <img src="https://arepa.s3.amazonaws.com/elmo002.jpg" alt="" />
+        <img src={avatar} alt={username} />
         <h2>
-          Elmo.pug
-          <span>Bogotá, Colombia</span>
+          {username}
+          <span>{location}</span>
         </h2>
       </div>
       <div class="settings">
@@ -131,7 +141,7 @@
     </div>
     <div class="photo">
       <figure>
-        <img src="https://arepa.s3.amazonaws.com/elmo002.jpg" alt="" />
+        <img src={photo} alt={postComment} />
       </figure>
     </div>
     <div class="icons">
@@ -144,9 +154,9 @@
       </div>
     </div>
     <div class="description">
-      <h3>elmo.pug</h3>
-      <span>Hi! It's Elmo</span>
+      <h3>{username}</h3>
+      <span>{postComment}</span>
     </div>
-    <Comments />
+    <Comments {comments} />
   </div>
 </div>

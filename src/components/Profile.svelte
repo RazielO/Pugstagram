@@ -1,3 +1,8 @@
+<script>
+  export let nickname;
+  export let name;
+</script>
+
 <style>
   .content {
     display: flex;
@@ -29,8 +34,8 @@
       <img src="https://arepa.s3.amazonaws.com/oscar.png" alt="Profile" />
     </div>
     <div class="info">
-      <h2>RazielO</h2>
-      <span>Oscar Raziel</span>
+      <h2>{nickname}</h2>
+      <span>{name}</span>
     </div>
   </div>
 </div>
