@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  .TimeLine {
+  .Timeline {
     padding: 4em 0 0 0;
   }
 </style>

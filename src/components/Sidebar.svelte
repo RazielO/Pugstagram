@@ -15,7 +15,9 @@
 </style>
 
 <div class="Sidebar">
-  <Profile />
-  <Stories />
-  <Footer />
+  <div class="container">
+    <Profile />
+    <Stories />
+    <Footer />
+  </div>
 </div>
