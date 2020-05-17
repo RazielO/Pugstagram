@@ -62,6 +62,7 @@
     font-size: 12px;
     outline: none;
     cursor: pointer;
+    background: transparent;
   }
 </style>
 
