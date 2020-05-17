@@ -49,7 +49,7 @@
       href="https://www.facebook.com/sharer/sharer.php?&u=https://pugstagram.co"
       target="_blank">
       <i class="fab fa-facebook-square" />
-      Share on Facebook
+      Share it on Facebook
     </a>
   </div>
 </div>
